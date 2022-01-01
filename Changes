@@ -165,3 +165,6 @@ Revision history for Perl extension Want.
     - Fix test failure in 5.14
     - Fix test failure in 5.23.9 (using a patch from Slaven Rezic)
       http://cpan.cpantesters.org/authors/id/S/SR/SREZIC/patches/Want-0.26-RT112226.patch
+
+0.29.1  Sat  1 Jan 2019 12:47:44 GMT
+    - Fix exception on call want() inside eval
